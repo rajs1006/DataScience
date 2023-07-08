@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./Dockerfile
+          file: ./sensordata/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/sensordata:latest
 
