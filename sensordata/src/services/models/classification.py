@@ -1,5 +1,4 @@
 import pickle
-from copy import deepcopy
 from typing import Any, Dict, Optional, Tuple, Union
 
 import numpy as np
@@ -10,7 +9,7 @@ from sklearn.gaussian_process.kernels import RBF
 from sklearn.model_selection import GridSearchCV, StratifiedKFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from solution.utils.Common import getByKey
+from src.utils.Common import getByKey
 
 """ Set the seed for reproductibility 
     

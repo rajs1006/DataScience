@@ -10,5 +10,6 @@ services:
     container_name: sensordata
     ports:
       - 3000:3000
+    tty: true
 
   
