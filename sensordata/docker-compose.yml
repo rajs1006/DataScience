@@ -1,0 +1,14 @@
+version: "3.8"
+
+
+services:
+  sensordata:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sensordata:v0.0.1
+    container_name: sensordata
+    ports:
+      - 3000:3000
+
+  
