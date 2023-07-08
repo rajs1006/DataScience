@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Start containers
+      - name: Build and Start containers
         run: docker-compose -f "sensordata/docker-compose.yml" up --build --remove-orphan
