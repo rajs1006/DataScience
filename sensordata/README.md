@@ -19,7 +19,7 @@
 
 ## Architecture
 
-![Architecture for MLOps](/home/sourabh/Me/code/flyte/DataScience/sensordata/docs/ARCHITECTURE_ZEISS.png)
+![Architecture for MLOps](https://github.com/rajs1006/DataScience/blob/main/sensordata/docs/ARCHITECTURE_ZEISS.png)
 
 
 
