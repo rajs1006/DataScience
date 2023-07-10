@@ -1,4 +1,12 @@
+
 # MLOps Architecture
+
+## RUN
+
+- Install **Docker** and **Docker Compose**.
+- Clone the repository, got to the folder **DataScience**
+- Run below command:
+  > docker-compose -f "sensordata/docker-compose.yml" up --build
 
 ## Assumptions
 
@@ -128,15 +136,4 @@ With Dagster final Dashboard will look like below on URL :<http://0.0.0.0:3000>
 
 ![Dagster Dashboard](https://github.com/rajs1006/DataScience/blob/main/sensordata/docs/dashboard.png)
 
-
-## RUN
-
-To run this code you need to install **Docker** and **Docker Compose**.
-
-Clone the repository, got to the folder **DataScience**
-
-Execute below command
-
-'''
-docker-compose -f "sensordata/docker-compose.yml" up --build
-'''
+	
