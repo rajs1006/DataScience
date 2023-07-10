@@ -64,7 +64,7 @@ In this architecture I have tried to use mostly Open Source tools except some of
 			- Cache DB : Redis
 			- Servers : Kubernetes cluster/EKS/AKS 
 			- Data pipelines : Airflow/Dagster/Prefect
-			- Model Developemnt and Deployment :  Jupyter | MLFlow, DVC | Airflow/Dagster/ZenML    
+   - Model Development and Deployment :  Jupyter | MLFlow, DVC | Airflow/Dagster/ZenML    
 			
 
 ## Details:
@@ -119,3 +119,11 @@ _Airflow_, _ZenML_, _Dagster_, are great tools to orchestrate the pipelines and 
 **Production**
 
 After finalizing the model in the staging environment, _CI/CD_ processes can be triggered to move the models and pipelines to production. In this environment, training and inference can be manually triggered, event-driven, REST-based, or scheduled. 
+
+
+
+## DASHBOARD
+
+With Dagster final Dashboard will look like below on URL :<http://0.0.0.0:3000>
+
+![Dagster Dashboard](https://github.com/rajs1006/DataScience/blob/main/sensordata/docs/dashboard.png)
