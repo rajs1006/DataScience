@@ -11,7 +11,7 @@ from utils.Logger import logger
 log = logger(__file__)
 
 """
-    A folder to store everything
+    A folder to store experiments
 
     We could also use S3/Azure Blobs or even Database for this.
 
