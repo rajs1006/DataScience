@@ -44,6 +44,14 @@ _modelDict = {
 }
 
 
+"""
+    This class is base structure to be called for different use cases.
+
+    A use case can pass one or multiple _modelDict keys and run validation, Training, Prediction.
+
+    This class gives a benefit of trying out multiple models without changing to base class. 
+    Just a wrapper class is needed to call this class and use different models.
+"""
 class Model:
     def __call__(self, _modelName: str) -> None:
         self.modelName = _modelName

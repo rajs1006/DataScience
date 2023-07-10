@@ -1,3 +1,7 @@
+'''
+    A file to contain some common methods to keep them separated from the crowd.
+'''
+
 import operator
 from typing import Any, Union
 

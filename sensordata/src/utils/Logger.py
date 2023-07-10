@@ -41,7 +41,6 @@ def logger(fileName: str) -> logging.log:
     class Logger:
         def __init__(self):
             ### Using streamhandler, it generates logs as standard error.
-
             self.streamHandler = logging.StreamHandler(stream=sys.stdout)
             self.streamHandler.setFormatter(
                 JsonFormatter(JSON_FORMAT, record_custom_attrs=CUSTOM_FORMAT)
