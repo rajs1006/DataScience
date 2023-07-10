@@ -38,9 +38,9 @@ In this architecture I have tried to use mostly Open Source tools except some of
 #### Using Cloud Provider vs Ensemble tools
 
 ##### Comparison		
-		|    Cloud Provider               	   |      Ensembel tools
+		|    Cloud Provider                    |      Ensembel tools
 		:-------------------------------------: :-------------------------------------------:
-		| Less maintanance					   |  More maintance required      
+		| Less maintanance		       |  More maintance required      
 		| Useful with less people in the team  |  Useful with a dedicated team
 		| Could be more expensive              |  Can be planned wisely to be less expensive
 		| Less suitable for specific use cases |  Can be architected specific to the use case
